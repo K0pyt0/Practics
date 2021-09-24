@@ -1,0 +1,15 @@
+/Users/K0pyt0/Documents/LIT/OOP/Practics/Greetings/bin/Debug/net5.0/Greetings.deps.json
+/Users/K0pyt0/Documents/LIT/OOP/Practics/Greetings/bin/Debug/net5.0/Greetings.runtimeconfig.json
+/Users/K0pyt0/Documents/LIT/OOP/Practics/Greetings/bin/Debug/net5.0/Greetings.runtimeconfig.dev.json
+/Users/K0pyt0/Documents/LIT/OOP/Practics/Greetings/bin/Debug/net5.0/Greetings.dll
+/Users/K0pyt0/Documents/LIT/OOP/Practics/Greetings/bin/Debug/net5.0/ref/Greetings.dll
+/Users/K0pyt0/Documents/LIT/OOP/Practics/Greetings/bin/Debug/net5.0/Greetings.pdb
+/Users/K0pyt0/Documents/LIT/OOP/Practics/Greetings/obj/Debug/net5.0/Greetings.csproj.AssemblyReference.cache
+/Users/K0pyt0/Documents/LIT/OOP/Practics/Greetings/obj/Debug/net5.0/Greetings.GeneratedMSBuildEditorConfig.editorconfig
+/Users/K0pyt0/Documents/LIT/OOP/Practics/Greetings/obj/Debug/net5.0/Greetings.AssemblyInfoInputs.cache
+/Users/K0pyt0/Documents/LIT/OOP/Practics/Greetings/obj/Debug/net5.0/Greetings.AssemblyInfo.cs
+/Users/K0pyt0/Documents/LIT/OOP/Practics/Greetings/obj/Debug/net5.0/Greetings.csproj.CoreCompileInputs.cache
+/Users/K0pyt0/Documents/LIT/OOP/Practics/Greetings/obj/Debug/net5.0/Greetings.dll
+/Users/K0pyt0/Documents/LIT/OOP/Practics/Greetings/obj/Debug/net5.0/ref/Greetings.dll
+/Users/K0pyt0/Documents/LIT/OOP/Practics/Greetings/obj/Debug/net5.0/Greetings.pdb
+/Users/K0pyt0/Documents/LIT/OOP/Practics/Greetings/obj/Debug/net5.0/Greetings.genruntimeconfig.cache

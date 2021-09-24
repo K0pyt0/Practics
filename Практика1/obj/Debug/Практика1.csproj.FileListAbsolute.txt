@@ -1,0 +1,6 @@
+/Users/K0pyt0/Documents/LIT/OOP/Practics/Практика1/bin/Debug/Практика1.exe
+/Users/K0pyt0/Documents/LIT/OOP/Practics/Практика1/bin/Debug/Практика1.pdb
+/Users/K0pyt0/Documents/LIT/OOP/Practics/Практика1/obj/Debug/Практика1.csproj.AssemblyReference.cache
+/Users/K0pyt0/Documents/LIT/OOP/Practics/Практика1/obj/Debug/Практика1.csproj.CoreCompileInputs.cache
+/Users/K0pyt0/Documents/LIT/OOP/Practics/Практика1/obj/Debug/Практика1.exe
+/Users/K0pyt0/Documents/LIT/OOP/Practics/Практика1/obj/Debug/Практика1.pdb

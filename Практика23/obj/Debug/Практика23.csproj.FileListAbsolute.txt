@@ -1,0 +1,5 @@
+/Users/K0pyt0/Documents/LIT/OOP/Practics/Практика23/bin/Debug/Практика23.exe
+/Users/K0pyt0/Documents/LIT/OOP/Practics/Практика23/bin/Debug/Практика23.pdb
+/Users/K0pyt0/Documents/LIT/OOP/Practics/Практика23/obj/Debug/Практика23.csproj.CoreCompileInputs.cache
+/Users/K0pyt0/Documents/LIT/OOP/Practics/Практика23/obj/Debug/Практика23.exe
+/Users/K0pyt0/Documents/LIT/OOP/Practics/Практика23/obj/Debug/Практика23.pdb
