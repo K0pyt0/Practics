@@ -1,0 +1,15 @@
+C:\Users\Ivan\source\repos\Practics\Практика51\bin\Debug\net5.0\Практика31.exe
+C:\Users\Ivan\source\repos\Practics\Практика51\bin\Debug\net5.0\Практика31.deps.json
+C:\Users\Ivan\source\repos\Practics\Практика51\bin\Debug\net5.0\Практика31.runtimeconfig.json
+C:\Users\Ivan\source\repos\Practics\Практика51\bin\Debug\net5.0\Практика31.runtimeconfig.dev.json
+C:\Users\Ivan\source\repos\Practics\Практика51\bin\Debug\net5.0\Практика31.dll
+C:\Users\Ivan\source\repos\Practics\Практика51\bin\Debug\net5.0\ref\Практика31.dll
+C:\Users\Ivan\source\repos\Practics\Практика51\bin\Debug\net5.0\Практика31.pdb
+C:\Users\Ivan\source\repos\Practics\Практика51\obj\Debug\net5.0\Практика31.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ivan\source\repos\Practics\Практика51\obj\Debug\net5.0\Практика31.AssemblyInfoInputs.cache
+C:\Users\Ivan\source\repos\Practics\Практика51\obj\Debug\net5.0\Практика31.AssemblyInfo.cs
+C:\Users\Ivan\source\repos\Practics\Практика51\obj\Debug\net5.0\Практика31.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\source\repos\Practics\Практика51\obj\Debug\net5.0\Практика31.dll
+C:\Users\Ivan\source\repos\Practics\Практика51\obj\Debug\net5.0\ref\Практика31.dll
+C:\Users\Ivan\source\repos\Practics\Практика51\obj\Debug\net5.0\Практика31.pdb
+C:\Users\Ivan\source\repos\Practics\Практика51\obj\Debug\net5.0\Практика31.genruntimeconfig.cache
