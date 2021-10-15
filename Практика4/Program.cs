@@ -20,10 +20,10 @@ namespace Практика4
 
         static void Main(string[] args)
         {
-            double a = double.Parse(Console.ReadLine());
-            double b = double.Parse(Console.ReadLine());
-            double c = double.Parse(Console.ReadLine());
-            double ans = max(min((a + 1) / a, b), a, 2 / (a * b)) * min(a, max(0, -b, Math.Sqrt(1 + a * b))) + 2 * max(a, 3 + Math.Sqrt(a), Math.Pow(a, 3) * b);
+            int a = int.Parse(Console.ReadLine());
+            int b = int.Parse(Console.ReadLine());
+            int c = int.Parse(Console.ReadLine());
+            double ans = max(min((a + 1.0) / a, b), a, 2.0 / (a * b)) * min(a, max(0, -b, Math.Sqrt(1.0 + a * b))) + 2.0 * max(a, 3.0 + Math.Sqrt(a), Math.Pow(a, 3.0) * b);
             Console.WriteLine(ans);
         }
     }
