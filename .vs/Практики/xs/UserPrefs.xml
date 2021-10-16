@@ -1,32 +1,19 @@
-﻿<Properties StartupConfiguration="{AAAF7B22-EC3C-4EF3-9F8A-99B4D9AB1707}|Default">
-  <MonoDevelop.Ide.ItemProperties.Практика31 PreferredExecutionTarget="MonoDevelop.Default" />
+﻿<Properties StartupConfiguration="{C599021F-215F-4533-89B1-33D9220B813B}|Default">
   <MonoDevelop.Ide.ItemProperties.Практика23 PreferredExecutionTarget="MonoDevelop.Default" />
-<<<<<<< Updated upstream
-  <MonoDevelop.Ide.Workbench ActiveDocument="Практика32/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Практика33/Program.cs">
     <Files>
-      <File FileName="Практика51/Program.cs" Line="9" Column="15" />
-      <File FileName="Практика32/Program.cs" Line="11" Column="42" />
-=======
-  <MonoDevelop.Ide.Workbench ActiveDocument="Практика4/Program.cs">
-    <Files>
-      <File FileName="Практика4/Program.cs" Line="31" Column="1" />
->>>>>>> Stashed changes
+      <File FileName="Практика51/Program.cs" Line="1" Column="1" />
+      <File FileName="Практика32/Program.cs" Line="21" Column="2" />
+      <File FileName="Практика33/Program.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Практики" expanded="True">
-<<<<<<< Updated upstream
-            <Node name="Практика31" expanded="True" />
-            <Node name="Практика32" expanded="True">
+            <Node name="Практика32" expanded="True" />
+            <Node name="Практика33" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
-            <Node name="Практика33" expanded="True" />
-=======
-            <Node name="Практика4" expanded="True">
-              <Node name="Program.cs" selected="True" />
-            </Node>
->>>>>>> Stashed changes
           </Node>
         </State>
       </Pad>
@@ -35,9 +22,13 @@
   <MonoDevelop.Ide.ItemProperties.Greetings PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Практика22 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Практика24 FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Практика32 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Практика21 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Практика1 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>Практика51/Практика31.csproj</String>
+  </DisabledProjects>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Практика4 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
