@@ -1,24 +1,20 @@
-﻿<Properties StartupConfiguration="{6F3E6A05-FDA3-432E-80F5-F07D665D6D65}|Default">
+﻿<Properties StartupConfiguration="{AAAF7B22-EC3C-4EF3-9F8A-99B4D9AB1707}|Default">
+  <MonoDevelop.Ide.ItemProperties.Практика31 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Практика23 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Практика22/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Практика32/Program.cs">
     <Files>
-      <File FileName="Практика24/Program.cs" Line="13" Column="55" />
-      <File FileName="Практика2/Program1.cs" Line="1" Column="1" />
-      <File FileName="Практика22/Program.cs" Line="1" Column="1" />
-      <File FileName="Практика23/Program.cs" Line="1" Column="1" />
+      <File FileName="Практика51/Program.cs" Line="9" Column="15" />
+      <File FileName="Практика32/Program.cs" Line="11" Column="42" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Практики" expanded="True">
-            <Node name="Greetings" expanded="True" />
-            <Node name="Практика1" expanded="True" />
-            <Node name="Практика21" expanded="True" />
-            <Node name="Практика22" expanded="True">
+            <Node name="Практика31" expanded="True" />
+            <Node name="Практика32" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
-            <Node name="Практика23" expanded="True" />
-            <Node name="Практика24" expanded="True" />
+            <Node name="Практика33" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -31,6 +27,7 @@
   <MonoDevelop.Ide.ItemProperties.Практика1 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Практика4 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
