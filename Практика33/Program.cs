@@ -11,19 +11,12 @@ namespace Практика33
             int inp = int.Parse(Console.ReadLine());
             while (inp != -1)
             {
-                switch (inp)
+                if (inp == 0)
                 {
-                    case 0:
-                        if (count > max) max = count; 
-                        count = 0;
-                        break;
-                    case 1:
-                        count++;
-                        break;
-                    default:
-                        Console.WriteLine("Wait. It's illegal");
-                        break;
+                    if (count > max) max = count; 
+                    count = 0;
                 }
+                if (inp == 1) count++;
                 inp = int.Parse(Console.ReadLine());
             }
             Console.WriteLine(max);
