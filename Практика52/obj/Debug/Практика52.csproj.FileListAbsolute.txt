@@ -1,2 +1,0 @@
-/Users/K0pyt0/Documents/LIT/OOP/Practics/Практика52/obj/Debug/Практика52.csproj.AssemblyReference.cache
-/Users/K0pyt0/Documents/LIT/OOP/Practics/Практика52/obj/Debug/Практика52.csproj.CoreCompileInputs.cache

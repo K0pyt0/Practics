@@ -13,3 +13,4 @@ C:\Users\Ivan\source\repos\Practics\Практика33\obj\Debug\net5.0\Прак
 C:\Users\Ivan\source\repos\Practics\Практика33\obj\Debug\net5.0\ref\Практика33.dll
 C:\Users\Ivan\source\repos\Practics\Практика33\obj\Debug\net5.0\Практика33.pdb
 C:\Users\Ivan\source\repos\Practics\Практика33\obj\Debug\net5.0\Практика33.genruntimeconfig.cache
+C:\Users\Ivan\Source\Repos\Practics\Практика33\obj\Debug\net5.0\Практика33.csproj.AssemblyReference.cache

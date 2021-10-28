@@ -1,0 +1,6 @@
+C:\Users\Ivan\Source\Repos\Practics\Практика24\bin\Debug\Практика24.exe
+C:\Users\Ivan\Source\Repos\Practics\Практика24\bin\Debug\Практика24.pdb
+C:\Users\Ivan\Source\Repos\Practics\Практика24\obj\Debug\Практика24.csproj.AssemblyReference.cache
+C:\Users\Ivan\Source\Repos\Practics\Практика24\obj\Debug\Практика24.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Source\Repos\Practics\Практика24\obj\Debug\Практика24.exe
+C:\Users\Ivan\Source\Repos\Practics\Практика24\obj\Debug\Практика24.pdb

@@ -4,3 +4,9 @@
 /Users/K0pyt0/Documents/LIT/OOP/Practics/Практика1/obj/Debug/Практика1.csproj.CoreCompileInputs.cache
 /Users/K0pyt0/Documents/LIT/OOP/Practics/Практика1/obj/Debug/Практика1.exe
 /Users/K0pyt0/Documents/LIT/OOP/Practics/Практика1/obj/Debug/Практика1.pdb
+C:\Users\Ivan\Source\Repos\Practics\Практика1\bin\Debug\Практика1.exe
+C:\Users\Ivan\Source\Repos\Practics\Практика1\bin\Debug\Практика1.pdb
+C:\Users\Ivan\Source\Repos\Practics\Практика1\obj\Debug\Практика1.csproj.AssemblyReference.cache
+C:\Users\Ivan\Source\Repos\Practics\Практика1\obj\Debug\Практика1.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Source\Repos\Practics\Практика1\obj\Debug\Практика1.exe
+C:\Users\Ivan\Source\Repos\Practics\Практика1\obj\Debug\Практика1.pdb

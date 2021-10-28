@@ -2,19 +2,15 @@
 
 namespace Практика51
 {
-    class MainClass
+    class Program
     {
-        public static void Main(string[] args)
+        static void Main(string[] args)
         {
-            for (int i = 0; i < 4; i++)
-            {
-                int a = int.Parse(Console.ReadLine());
-                int b = int.Parse(Console.ReadLine());
-                int ans = a % b;
-                Console.WriteLine(ans);
-                Console.WriteLine();
-
-            }
+            int a = int.Parse(Console.ReadLine());
+            int b = int.Parse(Console.ReadLine());
+            int ans = a % b;
+            Console.WriteLine(ans);
+            Console.WriteLine();
         }
     }
 }

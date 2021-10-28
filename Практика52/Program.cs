@@ -2,9 +2,9 @@
 
 namespace Практика52
 {
-    class MainClass
+    class Program
     {
-        public static void Main(string[] args)
+        static void Main(string[] args)
         {
             static string N1(int N)
             {
@@ -67,11 +67,11 @@ namespace Практика52
             static void Main(string[] args)
             {
                 int N = int.Parse(Console.ReadLine());
+                Console.WriteLine($"{N}");
                 Console.WriteLine(N1(N));
                 Console.WriteLine($"{N2(N)}");
                 Console.WriteLine($"{N3(N)}");
             }
-
         }
     }
 }
