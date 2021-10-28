@@ -1,18 +1,18 @@
-﻿<Properties StartupConfiguration="{C599021F-215F-4533-89B1-33D9220B813B}|Default">
+﻿<Properties StartupConfiguration="{0F7CD35A-6298-4FE2-B944-2E105AA5800D}|Default">
   <MonoDevelop.Ide.ItemProperties.Практика23 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Практика51/Program.cs">
     <Files>
-      <File FileName="Практика51/Program.cs" Line="21" Column="1" />
-      <File FileName="Практика52/Program.cs" Line="72" Column="47" />
+      <File FileName="Практика52/Program.cs" Line="37" Column="1" />
+      <File FileName="Практика51/Program.cs" Line="12" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Практики" expanded="True">
-            <Node name="Практика51" expanded="True" />
-            <Node name="Практика52" expanded="True">
+            <Node name="Практика51" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
+            <Node name="Практика52" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -30,7 +30,7 @@
     <String>Практика51/Практика31.csproj</String>
   </DisabledProjects>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Практика51 FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Практика51 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Практика4 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
