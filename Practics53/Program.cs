@@ -13,6 +13,7 @@ namespace Practics53
                 {
                     sum += i;
                 }
+
             }
             return sum;
         }
@@ -20,7 +21,7 @@ namespace Practics53
         static void Main(string[] args)
         {
             int N = int.Parse(Console.ReadLine());
-            for (int i = 0; i < N; i ++)
+            for (int i = 1; i < N; i ++)
             {
                 if (find_del_sum(i) == i)
                 {
