@@ -4,44 +4,86 @@ namespace Гномы
 {
     class MainClass
     {
-        static uint InputGN()
+        static int InputGN()
         {
             Console.WriteLine("Введите количество гномов (16 или 32):");
-            uint GN = uint.Parse(Console.ReadLine());
+            int GN = int.Parse(Console.ReadLine());
             if (GN == 16 || GN == 32) return GN;
             else return WrongInputGN();
         }
 
-        static uint WrongInputGN()
+        static int WrongInputGN()
         {
             Console.WriteLine("Ошибка: введённое число должно быть равно 16 или 32. Повторите ввод:");
-            uint GN = uint.Parse(Console.ReadLine());
+            int GN = int.Parse(Console.ReadLine());
             if (GN == 16 || GN == 32) return GN;
             else return WrongInputGN();
         }
 
-        static ushort InputGPS()
-        {
-            Console.WriteLine("Введите число, двоичный код которого представляет гномов:");
-            ushort GP = ushort.Parse(Console.ReadLine());
-            return GP;
-        }
-
-        static uint InputGPI()
+        static uint InputGP()
         {
             Console.WriteLine("Введите число, двоичный код которого представляет гномов:");
             uint GP = uint.Parse(Console.ReadLine());
             return GP;
         }
 
+        static void Output(uint GP, int GN)
+        {
+            Console.WriteLine("Гномы:");
+            for (int i = 32; i <= 0; i++)
+            {
+                if (((GP << i) & 80000000) == 80000000) Console.Write("1");
+                else Console.Write("0");
+            }
+            Console.WriteLine();
+        }
+
+        static bool AreForwardEven(uint GP, int GN, int pos)
+        {
+            GP >>= pos;
+            int count = 0;
+            for (int i = 0; i < (GN - pos); i++)
+            {
+                if (((GP >> i) & 1) == 1) count++;
+            }
+            if (count % 2 == 0) return true;
+            else return false;
+        }
+        
+        static void Say(bool ans, uint GP, int pos, ref int score)
+        {
+            bool rans = ((GP >> pos) & 1) == 1;
+            if (ans) Console.WriteLine($"{pos + 1}-й гном сказал: \"Я в красной шапке.\"");
+            else Console.WriteLine($"{pos + 1}-й гном сказал: \"Я в зелёной шапке.\"");
+            if (ans == rans)
+            {
+                score++;
+                Console.WriteLine($"{pos + 1}-й гном угадал и получил монету. Общий счёт гномов: {score}");
+            }
+            else Console.WriteLine($"{pos + 1}-й гном ошибся и не получил ни одной монеты. Общий счёт гномов: {score}");
+        }
+
         public static void Main(string[] args)
         {
-            uint GN = InputGN();
-            ushort GPS = InputGPS();
-            uint GPI = InputGPI();
+            int GN = InputGN();
+            uint GP = InputGP();
+            Console.WriteLine(GP);
+            Output(GP, GN);
+            int score = 0;
 
-            Console.WriteLine(GN);
-            Console.WriteLine($"{GPS}, {GPI}");
+            bool isNumEven = AreForwardEven(GP, GN, 0);
+            Say(isNumEven, GP, 0, ref score);
+            for (int i = 1; i < GN; i++)
+            {
+                if (isNumEven == AreForwardEven(GP, GN, i)) Say(false, GP, i, ref score);
+                else
+                {
+                    Say(true, GP, i, ref score);
+                    if (isNumEven) isNumEven = false;
+                    else isNumEven = true;
+                }
+            }
+            Console.ReadKey();
         }
     }
 }

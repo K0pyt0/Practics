@@ -4,3 +4,9 @@
 /Users/K0pyt0/Documents/LIT/OOP/Practics/Гномы/bin/Debug/Гномы.pdb
 /Users/K0pyt0/Documents/LIT/OOP/Practics/Гномы/obj/Debug/Гномы.exe
 /Users/K0pyt0/Documents/LIT/OOP/Practics/Гномы/obj/Debug/Гномы.pdb
+D:\LIT\OOP\Practics\Гномы\bin\Debug\Гномы.exe
+D:\LIT\OOP\Practics\Гномы\bin\Debug\Гномы.pdb
+D:\LIT\OOP\Practics\Гномы\obj\Debug\Гномы.csproj.AssemblyReference.cache
+D:\LIT\OOP\Practics\Гномы\obj\Debug\Гномы.csproj.CoreCompileInputs.cache
+D:\LIT\OOP\Practics\Гномы\obj\Debug\Гномы.exe
+D:\LIT\OOP\Practics\Гномы\obj\Debug\Гномы.pdb
