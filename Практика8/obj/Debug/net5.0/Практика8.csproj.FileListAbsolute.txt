@@ -1,0 +1,16 @@
+D:\LIT\OOP\Practics\Практика8\bin\Debug\net5.0\Практика8.exe
+D:\LIT\OOP\Practics\Практика8\bin\Debug\net5.0\Практика8.deps.json
+D:\LIT\OOP\Practics\Практика8\bin\Debug\net5.0\Практика8.runtimeconfig.json
+D:\LIT\OOP\Practics\Практика8\bin\Debug\net5.0\Практика8.runtimeconfig.dev.json
+D:\LIT\OOP\Practics\Практика8\bin\Debug\net5.0\Практика8.dll
+D:\LIT\OOP\Practics\Практика8\bin\Debug\net5.0\ref\Практика8.dll
+D:\LIT\OOP\Practics\Практика8\bin\Debug\net5.0\Практика8.pdb
+D:\LIT\OOP\Practics\Практика8\obj\Debug\net5.0\Практика8.csproj.AssemblyReference.cache
+D:\LIT\OOP\Practics\Практика8\obj\Debug\net5.0\Практика8.GeneratedMSBuildEditorConfig.editorconfig
+D:\LIT\OOP\Practics\Практика8\obj\Debug\net5.0\Практика8.AssemblyInfoInputs.cache
+D:\LIT\OOP\Practics\Практика8\obj\Debug\net5.0\Практика8.AssemblyInfo.cs
+D:\LIT\OOP\Practics\Практика8\obj\Debug\net5.0\Практика8.csproj.CoreCompileInputs.cache
+D:\LIT\OOP\Practics\Практика8\obj\Debug\net5.0\Практика8.dll
+D:\LIT\OOP\Practics\Практика8\obj\Debug\net5.0\ref\Практика8.dll
+D:\LIT\OOP\Practics\Практика8\obj\Debug\net5.0\Практика8.pdb
+D:\LIT\OOP\Practics\Практика8\obj\Debug\net5.0\Практика8.genruntimeconfig.cache
