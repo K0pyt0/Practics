@@ -1,20 +1,18 @@
-﻿<Properties StartupConfiguration="{435562F8-9386-40FE-98E9-1825E99741D1}|Default">
+﻿<Properties StartupConfiguration="{9A70097D-27AB-4CF4-88B2-85B3648E37EC}|Default">
   <MonoDevelop.Ide.ItemProperties.Практика71 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Практика23 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Практика53 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Практика7/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Гномы/Program.cs">
     <Files>
-      <File FileName="Практика7/Program.cs" Line="29" Column="36" />
-      <File FileName="Практика72/Program.cs" Line="1" Column="1" />
+      <File FileName="Гномы/Program.cs" Line="66" Column="76" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Практики" expanded="True">
             <Node name="Гномы" expanded="True" />
-            <Node name="Практика71" expanded="True">
-              <Node name="Program.cs" selected="True" />
-            </Node>
+            <Node name="Практика22" selected="True" />
+            <Node name="Практика71" expanded="True" />
             <Node name="Практика72" expanded="True" />
           </Node>
         </State>
