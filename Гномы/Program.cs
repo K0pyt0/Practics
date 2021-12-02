@@ -41,27 +41,27 @@ namespace Гномы
 
         static bool AreForwardEven(uint GP, int GN, int pos)
         {
-            GP >>= pos + 1;
+            GP >>= pos;
             int count = 0;
-            for (int i = 1; i < (GN - pos); i++)
+            for (int i = 1; i <= (GN - pos); i++)
             {
                 if (((GP >> i) & 1) == 1) count++;
             }
             if (count % 2 == 0)
             {
-                Console.WriteLine("Forward are even");
+                //Console.WriteLine("Forward are even");
                 return true;
             }
             else
             {
-                Console.WriteLine("Forward are uneven");
+                //Console.WriteLine("Forward are uneven");
                 return false;
             }
         }
         
         static void Say(bool ans, uint GP, int pos, ref int score)
         {
-            bool rans = ((GP >> pos) & 1) == 1;
+            bool rans = ((GP >> pos) & 1) != 1;
             if (ans) Console.WriteLine($"{pos + 1}-й гном сказал: \"Я в зелёной шапке.\"");
             else Console.WriteLine($"{pos + 1}-й гном сказал: \"Я в красной шапке.\"");
             if (ans == rans)
@@ -76,7 +76,6 @@ namespace Гномы
         {
             int GN = InputGN();
             uint GP = InputGP();
-            Console.WriteLine(GP);
             Output(GP, GN);
             int score = 0;
 
@@ -84,11 +83,11 @@ namespace Гномы
             Say(isNumEven, GP, 0, ref score);
             for (int i = 1; i < GN; i++)
             {
-                Console.WriteLine(isNumEven);
-                if (isNumEven == AreForwardEven(GP, GN, i)) Say(false, GP, i, ref score);
+                //Console.WriteLine(isNumEven);
+                if (isNumEven == AreForwardEven(GP, GN, i)) Say(true, GP, i, ref score);
                 else
                 {
-                    Say(true, GP, i, ref score);
+                    Say(false, GP, i, ref score);
                     if (isNumEven) isNumEven = false;
                     else isNumEven = true;
                 }

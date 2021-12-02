@@ -8,24 +8,31 @@
     "net5.0": []
   },
   "packageFolders": {
-    "/Users/K0pyt0/.nuget/packages/": {}
+    "C:\\Users\\Ivan\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/K0pyt0/Documents/LIT/OOP/Practics/Практика3BT1/Практика3BT1.csproj",
+      "projectUniqueName": "D:\\LIT\\OOP\\Practics\\Практика3BT1\\Практика3BT1.csproj",
       "projectName": "Практика3BT1",
-      "projectPath": "/Users/K0pyt0/Documents/LIT/OOP/Practics/Практика3BT1/Практика3BT1.csproj",
-      "packagesPath": "/Users/K0pyt0/.nuget/packages/",
-      "outputPath": "/Users/K0pyt0/Documents/LIT/OOP/Practics/Практика3BT1/obj/",
+      "projectPath": "D:\\LIT\\OOP\\Practics\\Практика3BT1\\Практика3BT1.csproj",
+      "packagesPath": "C:\\Users\\Ivan\\.nuget\\packages\\",
+      "outputPath": "D:\\LIT\\OOP\\Practics\\Практика3BT1\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/K0pyt0/.config/NuGet/NuGet.Config"
+        "C:\\Users\\Ivan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -58,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.403/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
