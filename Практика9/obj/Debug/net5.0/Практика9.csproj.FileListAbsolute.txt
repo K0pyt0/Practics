@@ -1,0 +1,16 @@
+D:\LIT\OOP\Practics\Практика9\bin\Debug\net5.0\Практика9.exe
+D:\LIT\OOP\Practics\Практика9\bin\Debug\net5.0\Практика9.deps.json
+D:\LIT\OOP\Practics\Практика9\bin\Debug\net5.0\Практика9.runtimeconfig.json
+D:\LIT\OOP\Practics\Практика9\bin\Debug\net5.0\Практика9.runtimeconfig.dev.json
+D:\LIT\OOP\Practics\Практика9\bin\Debug\net5.0\Практика9.dll
+D:\LIT\OOP\Practics\Практика9\bin\Debug\net5.0\ref\Практика9.dll
+D:\LIT\OOP\Practics\Практика9\bin\Debug\net5.0\Практика9.pdb
+D:\LIT\OOP\Practics\Практика9\obj\Debug\net5.0\Практика9.csproj.AssemblyReference.cache
+D:\LIT\OOP\Practics\Практика9\obj\Debug\net5.0\Практика9.GeneratedMSBuildEditorConfig.editorconfig
+D:\LIT\OOP\Practics\Практика9\obj\Debug\net5.0\Практика9.AssemblyInfoInputs.cache
+D:\LIT\OOP\Practics\Практика9\obj\Debug\net5.0\Практика9.AssemblyInfo.cs
+D:\LIT\OOP\Practics\Практика9\obj\Debug\net5.0\Практика9.csproj.CoreCompileInputs.cache
+D:\LIT\OOP\Practics\Практика9\obj\Debug\net5.0\Практика9.dll
+D:\LIT\OOP\Practics\Практика9\obj\Debug\net5.0\ref\Практика9.dll
+D:\LIT\OOP\Practics\Практика9\obj\Debug\net5.0\Практика9.pdb
+D:\LIT\OOP\Practics\Практика9\obj\Debug\net5.0\Практика9.genruntimeconfig.cache
