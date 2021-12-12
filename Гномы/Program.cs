@@ -43,7 +43,7 @@ namespace Гномы
         {
             GP >>= pos;
             int count = 0;
-            for (int i = 1; i <= (GN - pos); i++)
+            for (int i = 1; i < (GN - pos); i++)
             {
                 if (((GP >> i) & 1) == 1) count++;
             }

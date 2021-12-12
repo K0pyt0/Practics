@@ -1,21 +1,25 @@
-﻿<Properties StartupConfiguration="{9A70097D-27AB-4CF4-88B2-85B3648E37EC}|Default">
+﻿<Properties StartupConfiguration="{AC1CA4AD-363A-4B58-8AC7-EA6FA41482A8}|Default">
+  <MonoDevelop.Ide.ItemProperties.Практика8 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Практика71 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Практика23 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Практика53 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Гномы/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Практика8/Program.cs">
     <Files>
-      <File FileName="Гномы/Program.cs" Line="66" Column="76" />
+      <File FileName="Практика8/Program.cs" Line="41" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Практики" expanded="True">
             <Node name="Гномы" expanded="True" />
-            <Node name="Практика22" selected="True" />
-            <Node name="Практика71" expanded="True" />
-            <Node name="Практика72" expanded="True" />
+            <Node name="Практика8" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
           </Node>
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
