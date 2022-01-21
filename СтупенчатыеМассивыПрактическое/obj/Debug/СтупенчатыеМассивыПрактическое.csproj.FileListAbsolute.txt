@@ -1,0 +1,6 @@
+/Users/K0pyt0/Documents/LIT/OOP/Practics/СтупенчатыеМассивыПрактическое/bin/Debug/СтупенчатыеМассивыПрактическое.exe
+/Users/K0pyt0/Documents/LIT/OOP/Practics/СтупенчатыеМассивыПрактическое/bin/Debug/СтупенчатыеМассивыПрактическое.pdb
+/Users/K0pyt0/Documents/LIT/OOP/Practics/СтупенчатыеМассивыПрактическое/obj/Debug/СтупенчатыеМассивыПрактическое.csproj.AssemblyReference.cache
+/Users/K0pyt0/Documents/LIT/OOP/Practics/СтупенчатыеМассивыПрактическое/obj/Debug/СтупенчатыеМассивыПрактическое.csproj.CoreCompileInputs.cache
+/Users/K0pyt0/Documents/LIT/OOP/Practics/СтупенчатыеМассивыПрактическое/obj/Debug/СтупенчатыеМассивыПрактическое.exe
+/Users/K0pyt0/Documents/LIT/OOP/Practics/СтупенчатыеМассивыПрактическое/obj/Debug/СтупенчатыеМассивыПрактическое.pdb

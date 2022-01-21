@@ -27,3 +27,4 @@ C:/Users/Ivan/source/repos/Practics/Practics53/obj/Debug/net5.0/Практика
 /Users/K0pyt0/Documents/LIT/OOP/Practics/Practics53/obj/Debug/net5.0/ref/Практика53.dll
 /Users/K0pyt0/Documents/LIT/OOP/Practics/Practics53/obj/Debug/net5.0/Практика53.pdb
 /Users/K0pyt0/Documents/LIT/OOP/Practics/Practics53/obj/Debug/net5.0/Практика53.genruntimeconfig.cache
+/Users/K0pyt0/Documents/LIT/OOP/Practics/Practics53/obj/Debug/net5.0/Практика53.csproj.AssemblyReference.cache
