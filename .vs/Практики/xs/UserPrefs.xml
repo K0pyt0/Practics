@@ -3,15 +3,15 @@
   <MonoDevelop.Ide.ItemProperties.Практика71 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Практика23 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Практика53 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Практика10/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Практика11/Program.cs">
     <Files>
-      <File FileName="Практика10/Program.cs" Line="69" Column="14" />
+      <File FileName="Практика11/Program.cs" Line="9" Column="28" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Практики" expanded="True">
-            <Node name="Практика10" expanded="True">
+            <Node name="Практика11" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
@@ -34,6 +34,7 @@
     <String>Практика51/Практика31.csproj</String>
   </DisabledProjects>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Практика11 FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.Практика51 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Практика4 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
