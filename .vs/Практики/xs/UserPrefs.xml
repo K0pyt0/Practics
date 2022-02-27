@@ -5,12 +5,14 @@
   <MonoDevelop.Ide.ItemProperties.Практика53 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Практика12/Program.cs">
     <Files>
-      <File FileName="Практика12/Program.cs" Line="46" Column="10" />
+      <File FileName="Практика12/Program.cs" Line="129" Column="29" />
+      <File FileName="Практика1/Program.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Практики" expanded="True">
+            <Node name="Практика1" expanded="True" />
             <Node name="Практика12" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
@@ -34,7 +36,7 @@
     <String>Практика51/Практика31.csproj</String>
   </DisabledProjects>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Практика12 FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Практика12 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Практика11 FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.Практика51 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Практика4 PreferredExecutionTarget="MonoDevelop.Default" />

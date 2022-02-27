@@ -4,9 +4,9 @@ namespace Практика12
 {
     class Point3D
     {
-        private int x;
-        private int y;
-        private int z;
+        private double x;
+        private double y;
+        private double z;
 
         public Point3D()
         {
@@ -22,7 +22,16 @@ namespace Практика12
             this.z = z;
         }
 
-        public void Move(int axis, int distance)
+        public Point3D(decimal num)
+        {
+            x = (double)Math.Floor(num);
+            num -= Math.Floor(num);
+            while (Math.Floor(num) != num) num *= 10;
+            y = (double)num;
+            z = 0;
+        }
+
+        public void Move(int axis, double distance)
         {
             switch (axis)
             {
@@ -35,7 +44,7 @@ namespace Практика12
 
         public void Print()
         {
-            Console.WriteLine($"x: {x}; y: {y}; z: {z}");
+            Console.WriteLine($"x: {x:F0}; y: {y:F0}; z: {z:F0}");
         }
 
         public double DistanceToZero
@@ -66,7 +75,7 @@ namespace Практика12
             z += plus;
         }
 
-        public int X
+        public double X
         {
             get { return x; }
             set
@@ -75,7 +84,7 @@ namespace Практика12
             }
         }
 
-        public int Y
+        public double Y
         {
             get { return y; }
             set
@@ -85,7 +94,7 @@ namespace Практика12
             }
         }
 
-        public int Z
+        public double Z
         {
             get { return z; }
             set
@@ -99,8 +108,7 @@ namespace Практика12
         {
             get
             {
-                if (x < 10 && y > 2 && y < x) return true;
-                else return false;
+                return x < 10 && y > 2 && y < x;
             }
         }
 
@@ -111,13 +119,22 @@ namespace Практика12
     { 
         public static void Main(string[] args)
         {
+            //разнообразный ввод точек
             Point3D defPoint = new Point3D();
-            Console.WriteLine("Введите координаты точки");
+            /*Console.WriteLine("Введите координаты точки");
             int x = int.Parse(Console.ReadLine());
             int y = int.Parse(Console.ReadLine());
             int z = int.Parse(Console.ReadLine());
             Point3D point = new Point3D(x, y, z);
+            point.Print();*/
+            Console.WriteLine("Введите вещественное число");
+            decimal xy = decimal.Parse(Console.ReadLine());
+            Point3D doublePoint = new Point3D(xy);
+            doublePoint.Print();
 
+            /*Console.WriteLine("Какой метод/свойство вы хотите испытать? \n1 - сдвинуть точку \n2 - узнать радиус-вектор \n3 - сложить точку с другой");
+
+                              
 
             Console.WriteLine("X - 1\nY - 2\nZ - 3");
             int axis = int.Parse(Console.ReadLine());
@@ -127,12 +144,8 @@ namespace Практика12
             defPoint.Print();
             Console.WriteLine(point.DistanceToZero);
             defPoint.SumPoints(point);
-            defPoint.Print();
-
-            Console.WriteLine();
-            Console.WriteLine("Хоть поздно, а вступленье есть");
-            defPoint = new Point3D();
-            point = new Point3D(x, y, z);
+            defPoint.Print();*/
+            Console.ReadKey();
         }
     }
 }
