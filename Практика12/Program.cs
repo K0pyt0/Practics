@@ -68,7 +68,7 @@ namespace Практика12
             return ansPoint;
         }
 
-        public void SumPoints(int plus)
+        public void SumPoints(double plus)
         {
             x += plus;
             y += plus;
@@ -116,35 +116,76 @@ namespace Практика12
     }
 
     class MainClass
-    { 
+    {
+        static Point3D InputPoint()
+        {
+            Point3D point;
+            switch (Console.ReadLine())
+            {
+                case "1":
+                    point = new Point3D();
+                    break;
+                case "2":
+                    Console.WriteLine("Введите координаты точки");
+                    int x = int.Parse(Console.ReadLine());
+                    int y = int.Parse(Console.ReadLine());
+                    int z = int.Parse(Console.ReadLine());
+                    point = new Point3D(x, y, z);
+                    break;
+                case "3":
+                    Console.WriteLine("Введите вещественное число");
+                    decimal xy = decimal.Parse(Console.ReadLine());
+                    point = new Point3D(xy);
+                    break;
+                default:
+                    point = new Point3D();
+                    break;
+            }
+            point.Print();
+            return point;
+        }
+
         public static void Main(string[] args)
         {
-            //разнообразный ввод точек
-            Point3D defPoint = new Point3D();
-            /*Console.WriteLine("Введите координаты точки");
-            int x = int.Parse(Console.ReadLine());
-            int y = int.Parse(Console.ReadLine());
-            int z = int.Parse(Console.ReadLine());
-            Point3D point = new Point3D(x, y, z);
-            point.Print();*/
-            Console.WriteLine("Введите вещественное число");
-            decimal xy = decimal.Parse(Console.ReadLine());
-            Point3D doublePoint = new Point3D(xy);
-            doublePoint.Print();
+            Console.WriteLine(@"Как вы ходите создать точку?
+1 - не вводя ничего
+2 – вводя все координаты
+3 – вводя х и у через вещественное число");
+            Point3D point = InputPoint();
 
-            /*Console.WriteLine("Какой метод/свойство вы хотите испытать? \n1 - сдвинуть точку \n2 - узнать радиус-вектор \n3 - сложить точку с другой");
-
-                              
-
-            Console.WriteLine("X - 1\nY - 2\nZ - 3");
-            int axis = int.Parse(Console.ReadLine());
-            Console.Write("Введите расстояние");
-            int distance = int.Parse(Console.ReadLine());
-            defPoint.Move(axis, distance);
-            defPoint.Print();
-            Console.WriteLine(point.DistanceToZero);
-            defPoint.SumPoints(point);
-            defPoint.Print();*/
+            Console.WriteLine(@"Какой метод/свойство вы хотите испытать?
+1 - сдвинуть точку по введённой оси
+2 - узнать радиус-вектор
+3 - сложить точку с другой
+4 - сложить точку с числом
+5 - узнать, входит ли точка в область");
+            switch (Console.ReadLine())
+            {
+                case "1":
+                    Console.WriteLine("X - 1\nY - 2\nZ - 3");
+                    int axis = int.Parse(Console.ReadLine());
+                    Console.Write("Введите расстояние");
+                    int distance = int.Parse(Console.ReadLine());
+                    point.Move(axis, distance);
+                    point.Print();
+                    break;
+                case "2":
+                    Console.WriteLine(point.DistanceToZero);
+                    break;
+                case "3":
+                    Point3D point2 = InputPoint();
+                    point.SumPoints(point2);
+                    point.Print();
+                    break;
+                case "4":
+                    double var = double.Parse(Console.ReadLine());
+                    point.SumPoints(var);
+                    point.Print();
+                    break;
+                case "5":
+                    Console.WriteLine(point.IsIn);
+                    break;
+            }
             Console.ReadKey();
         }
     }
