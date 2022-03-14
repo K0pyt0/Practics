@@ -8,27 +8,67 @@ namespace Практика12
         private double y;
         private double z;
 
-        public Point3D()
+        Point3D()
         {
             x = 0;
             y = 0;
             z = 0;
         }
 
-        public Point3D(int x, int y, int z)
+        Point3D(int x, int y, int z)
         {
             this.x = x;
             this.y = y;
             this.z = z;
         }
 
-        public Point3D(decimal num)
+        Point3D(decimal num)
         {
             x = (double)Math.Floor(num);
             num -= Math.Floor(num);
             while (Math.Floor(num) != num) num *= 10;
             y = (double)num;
             z = 0;
+        }
+
+        static public Point3D InputPoint3D()
+        {
+            Point3D point;
+            Console.WriteLine(@"Как вы ходите создать точку?
+1 - не вводя ничего
+2 – вводя все координаты
+3 – вводя х и у через вещественное число");
+            switch (Console.ReadLine())
+            {
+                case "1":
+                    point = new Point3D();
+                    break;
+                case "2":
+                    try
+                    {
+                        Console.WriteLine("Введите координаты точки. Удостоверьтесь, что хотя бы одна из них кратна 5");
+                        int x = int.Parse(Console.ReadLine());
+                        int y = int.Parse(Console.ReadLine());
+                        int z = int.Parse(Console.ReadLine());
+                        if (x % 5 == 0 || y % 5 == 0 || z % 5 == 0) point = new Point3D(x, y, z);
+                        else throw new Exception("Вы неудачник. Вы неспособны понять простейшее условие. Созданная точка приговаривается к конструктору по умолчанию.");
+                    }
+                    catch(Exception error)
+                    {
+                        point = new Point3D();
+                        Console.WriteLine(error.Message);
+                    }
+                    break;
+                case "3":
+                    Console.WriteLine("Введите вещественное число");
+                    decimal xy = decimal.Parse(Console.ReadLine());
+                    point = new Point3D(xy);
+                    break;
+                default:
+                    point = new Point3D();
+                    break;
+            }
+            return point;
         }
 
         public void Move(int axis, double distance)
@@ -38,7 +78,7 @@ namespace Практика12
                 case 1: x += distance; break;
                 case 2: y += distance; break;
                 case 3: z += distance; break;
-                default: Console.WriteLine("Мимо"); break;
+                default: throw new Exception("Мимо");
             }
         }
 
@@ -80,7 +120,15 @@ namespace Практика12
             get { return x; }
             set
             {
-                if (value > 0) x = value;
+                try
+                {
+                    if (value > 0) x = value;
+                    else throw new Exception("переменная должна быть больше нуля");
+                }
+                catch (Exception error)
+                {
+                    Console.WriteLine("Возникла ошибка: " + error.Message);
+                }
             }
         }
 
@@ -89,8 +137,16 @@ namespace Практика12
             get { return y; }
             set
             {
-                if (value > 0 && value < 100) y = value;
-                else y = 100;
+                try
+                {
+                    if (value > 0 && value < 100) y = value;
+                    else throw new Exception("переменная должна быть больше нуля и меньше ста, она была приравнена к 100");
+                }
+                catch (Exception error)
+                {
+                    y = 100;
+                    Console.WriteLine("Возникла ошибка: " + error.Message);
+                }
             }
         }
 
@@ -99,8 +155,15 @@ namespace Практика12
             get { return z; }
             set
             {
-                if (value < x + y) z = value;
-                else Console.WriteLine($"{value} чуть больше, чем {x + y}");
+                try
+                {
+                    if (value < x + y) z = value;
+                    else throw new Exception($"{value} чуть больше, чем {x + y}");
+                }
+                catch (Exception error)
+                {
+                    Console.WriteLine("Возникла ошибка: " + error.Message);
+                }
             }
         }
 
@@ -117,41 +180,9 @@ namespace Практика12
 
     class MainClass
     {
-        static Point3D InputPoint()
-        {
-            Point3D point;
-            switch (Console.ReadLine())
-            {
-                case "1":
-                    point = new Point3D();
-                    break;
-                case "2":
-                    Console.WriteLine("Введите координаты точки");
-                    int x = int.Parse(Console.ReadLine());
-                    int y = int.Parse(Console.ReadLine());
-                    int z = int.Parse(Console.ReadLine());
-                    point = new Point3D(x, y, z);
-                    break;
-                case "3":
-                    Console.WriteLine("Введите вещественное число");
-                    decimal xy = decimal.Parse(Console.ReadLine());
-                    point = new Point3D(xy);
-                    break;
-                default:
-                    point = new Point3D();
-                    break;
-            }
-            point.Print();
-            return point;
-        }
-
         public static void Main(string[] args)
-        {
-            Console.WriteLine(@"Как вы ходите создать точку?
-1 - не вводя ничего
-2 – вводя все координаты
-3 – вводя х и у через вещественное число");
-            Point3D point = InputPoint();
+        { 
+            Point3D point = Point3D.InputPoint3D();
 
             Console.WriteLine(@"Какой метод/свойство вы хотите испытать?
 1 - сдвинуть точку по введённой оси
@@ -170,14 +201,15 @@ namespace Практика12
                     point.Print();
                     break;
                 case "2":
-                    Console.WriteLine(point.DistanceToZero);
+                    Console.WriteLine($"Расстояние до нуля: {point.DistanceToZero}");
                     break;
                 case "3":
-                    Point3D point2 = InputPoint();
+                    Point3D point2 = Point3D.InputPoint3D();
                     point.SumPoints(point2);
                     point.Print();
                     break;
                 case "4":
+                    Console.WriteLine("Введите число");
                     double var = double.Parse(Console.ReadLine());
                     point.SumPoints(var);
                     point.Print();
@@ -185,7 +217,10 @@ namespace Практика12
                 case "5":
                     Console.WriteLine(point.IsIn);
                     break;
+                default:
+                    throw new Exception("Возникла ошибка: введённое вами число не является ни одним из предложенных");
             }
+            point.Y = -1;
             Console.ReadKey();
         }
     }
